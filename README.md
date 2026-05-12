@@ -1,52 +1,70 @@
-# ML4W OS - Dotfiles for Hyprland
+# 🌑 Monochrome AI-Managed Dotfiles
 
-An advanced configuration of Hyprland for Arch Linux based distributions. Full featured desktop environment based on the dynamic tiling window manager Hyprland with adaptive material color themes based on the selected wallpaper for all components. Including a comprehensive selection of apps with the ability to customize the configuration to your personal needs.
+### *Utmost Perfection. Absolute Efficiency. Strictly Monochrome.*
 
-<img width="2560" height="1440" alt="image" src="https://ml4w.com/os/screen-2122.jpg" />
+This project is a high-performance, AI-managed workstation configuration built on top of the **ML4W** (My Linux for Work) Hyprland ecosystem. It is designed for developers, security researchers, and "vibecoders" who demand a zero-distraction, monochrome aesthetic coupled with advanced agentic automation.
 
-## Installation and Documentation
+---
 
-You can find all installation options in the documentation of the ML4W OS for Hyprland here:<br><b>https://ml4w.com/os/</b>
+## 🚀 Quick Installation
 
-### Quick Installation
+Deploy the entire workstation configuration (including themes, scripts, and Nix environments) with a single command:
 
-Copy one of the following commands into your terminal:
-
-```sh
-bash <(curl -s https://ml4w.com/os/stable) # Stable Release
+```bash
+git clone https://github.com/mylinuxforwork/dotfiles.git ~/dotfiles-custom
+cd ~/dotfiles-custom
+chmod +x install.sh
+./install.sh
 ```
 
-```sh
-bash <(curl -s https://ml4w.com/os/rolling) # Rolling Release
-```
-Arch, Fedora and openSuse Tumblweed are directly supported.
+---
 
-### Test and install with the ML4W OS Live ISO
+## ✨ Core Features
 
-Test the ML4W OS without risk on your computer or in a Virtual Machine with the ML4W Live ISO.
+### 🎨 Strict Monochrome Aesthetics
+- **Hyprland**: Sharp 5ms animations, zero-vibrancy blur, and white-to-gray active borders.
+- **Alacritty**: High-contrast black/white theme using Iosevka Nerd Font.
+- **Waybar**: Custom monochrome theme integrated directly into the ML4W theme switcher.
 
-<a href="https://ml4w.com/iso/ml4w-os/ml4w-os-2.12.0-x86_64.iso">Download the ML4W ISO</a>
+### 🤖 AI-Managed Workflow
+- **AI Agent Sessions (`Ctrl+Shift+A`)**: Instant access to a technical execution environment with pre-configured AI prompts.
+- **Manual Nix Shell (`Ctrl+Shift+I`)**: Enter a reproducible environment loaded with dev, security, and debugging tools.
+- **Automated Health Checks**: Daily systemd-driven audits that monitor service status, disk health, and kernel errors with auto-remediation.
 
-You can install the ML4W OS on your hard drive with the command `sudo install-ml4w-os` (BETA).
+### 🛡️ Resilience & Security
+- **Immutable Protection**: Scripts to "lock" critical configuration files (`chattr +i`) to prevent accidental or malicious changes.
+- **Automated Backups**: Integrated Borg/Vorta backup verification and rclone-backed cloud synchronization.
+- **Nix Backend**: All technical tooling is managed via Nix to keep the host system clean and stable.
 
-## Special Thanks
+---
 
-I want to say thank you to all contributors of the ML4W OS and all other Developers who are creating awesome configurations for our favorite Tiling Window Manager Hyprland. Your support, the testing of every version and all your valuable Pull Requests with improvements and bug fixes have repeatedly improved the overall project and increased its relevance and quality.
+## 🛠️ Included Components
 
-Special Thanks do to...
+| Component | Description | Keybinding |
+| :--- | :--- | :--- |
+| **Hyprland** | Window Manager (ML4W Base) | `Super` + ... |
+| **AI Agent** | Specialized Execution Session | `Ctrl+Shift+A` |
+| **Nix Shell** | Technical Tooling Stack | `Ctrl+Shift+I` |
+| **Browser** | Quick Web Access | `Ctrl+Shift+Return` |
+| **Health Check** | Daily System Audit | *Automated (Systemd)* |
 
-https://github.com/Affanmm for the great and professional ML4W Logo Design and much more.
-https://github.com/harilvfs for supporting me in creating the new Wiki https://ml4w.com/os/
-https://github.com/dwilliam62 for all your support and testings since the start of the Project
-and so many more...
+---
 
-## Inspirations
+## 📂 Repository Structure
 
-The following projects have inspired me:
+- `dotfiles/.config/`: Core configurations (Hyprland, Waybar, Alacritty, etc.).
+- `scripts/`: The brain of the system (AI launcher, protection, health checks).
+- `nix/`: Reproducible environment definitions.
+- `systemd/`: Automation timers and service units.
+- `wallpaper/`: Curated monochrome backgrounds.
 
-- https://github.com/JaKooLit/Hyprland-Dots
-- https://github.com/prasanthrangan/hyprdots
-- https://github.com/sudo-harun/dotfiles
-- https://github.com/dianaw353/hyprland-configuration-rootfs
+---
 
-and many more...
+## ⚖️ Credits & Inspirations
+
+- Based on the excellent [ML4W Dotfiles](https://github.com/mylinuxforwork/dotfiles).
+- Aesthetics inspired by high-end technical workstations and monochrome minimalism.
+
+---
+
+*“Simplicity is the ultimate sophistication.”* 🌑

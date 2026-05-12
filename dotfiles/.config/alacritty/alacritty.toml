@@ -1,0 +1,56 @@
+# ----------------------------------------------------- 
+# Alacritty Configuration
+# Monochrome / Iosevka Nerd Font
+# ----------------------------------------------------- 
+
+[window]
+padding = { x = 10, y = 10 }
+dynamic_padding = true
+opacity = 0.9
+blur = true
+
+[font]
+size = 12.0
+
+[font.normal]
+family = "Iosevka Nerd Font"
+style = "Regular"
+
+[font.bold]
+family = "Iosevka Nerd Font"
+style = "Bold"
+
+[font.italic]
+family = "Iosevka Nerd Font"
+style = "Italic"
+
+[colors.primary]
+background = "#000000"
+foreground = "#FFFFFF"
+
+[colors.cursor]
+text = "#000000"
+cursor = "#FFFFFF"
+
+[colors.normal]
+black   = "#1a1a1a"
+red     = "#4d4d4d"
+green   = "#666666"
+yellow  = "#808080"
+blue    = "#999999"
+magenta = "#b3b3b3"
+cyan    = "#cccccc"
+white   = "#e6e6e6"
+
+[colors.bright]
+black   = "#333333"
+red     = "#666666"
+green   = "#808080"
+yellow  = "#999999"
+blue    = "#b3b3b3"
+magenta = "#cccccc"
+cyan    = "#e6e6e6"
+white   = "#ffffff"
+
+[selection]
+save_to_clipboard = true
