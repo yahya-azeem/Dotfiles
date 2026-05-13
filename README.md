@@ -11,8 +11,8 @@ This project is a high-performance, AI-managed workstation configuration built o
 Deploy the entire workstation configuration (including themes, scripts, and Nix environments) with a single command:
 
 ```bash
-git clone https://github.com/mylinuxforwork/dotfiles.git ~/dotfiles-custom
-cd ~/dotfiles-custom
+git clone https://github.com/yahya-azeem/Dotfiles.git ~/dotfiles
+cd ~/dotfiles
 chmod +x install.sh
 ./install.sh
 ```

@@ -34,7 +34,7 @@ pkgs.mkShell {
     tmux
     neovim
     
-    # --- Security & Pentesting ---
+    # --- Security & Pentesting (Kali Style) ---
     nmap
     metasploit
     sqlmap
@@ -44,6 +44,27 @@ pkgs.mkShell {
     thc-hydra
     aircrack-ng
     hashcat
+    john
+    wireshark-cli
+    tshark
+    burpsuite
+    exploitdb
+    commix
+    recon-ng
+    dirb
+    wordlists
+    
+    # --- Reverse Engineering ---
+    ghidra-bin
+    radare2
+    cutter
+    binwalk
+    gdb
+    pwndbg
+    strace
+    ltrace
+    upx
+    hexdump
     
     # --- Network & Debugging ---
     curl
@@ -53,10 +74,14 @@ pkgs.mkShell {
     tcpdump
     strace
     lsof
+    mtr
+    socat
     
     # --- System Monitoring ---
     btop
     htop
+    iotop
+    iftop
   ];
 
   shellHook = ''
